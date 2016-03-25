@@ -7,7 +7,7 @@ const Router = require('koa-router');
 const User = require('../lib/user');
 const Repo = require('../lib/repository');
 
-const router = new Router({ prefix: '/repository' });
+const router = new Router({ prefix: '/repo' });
 
 router.get('/:repo', function *() {
   const github = this.app.context.github;

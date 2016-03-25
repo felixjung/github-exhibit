@@ -1,5 +1,5 @@
 {
-  "name": "github-exhibit",
+  "name": "exhibit-github",
   "version": "1.1.0",
   "description": "A plugin for the exhibition API wrapper app.",
   "main": "index.js",
